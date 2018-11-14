@@ -41,7 +41,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -168,8 +168,10 @@
 <wire x1="12.7" y1="21.59" x2="12.7" y2="0" width="0.2032" layer="20"/>
 <text x="9.906" y="0.381" size="0.6096" layer="27" ratio="12" rot="R90">Close</text>
 <text x="0.635" y="10.795" size="0.8128" layer="16" font="vector" ratio="25" rot="MR90" align="center">v10</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="47" font="vector" ratio="15">All dimensions in inches</text>
 <text x="22.86" y="-17.78" size="1.778" layer="51" font="vector">Nathan Seidle</text>
+<dimension x1="0" y1="21.59" x2="12.7" y2="21.59" x3="6.35" y3="25.4" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-3.81" y3="1.27" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="0" y2="21.59" x3="-8.89" y3="10.795" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun">
